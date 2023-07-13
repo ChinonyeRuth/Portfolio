@@ -1,16 +1,16 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import dataFinance from '../assets/portfolio/Capture.JPG'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/arrayDestruct.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
-import dataFinance from '../assets/portfolio/Capture.JPG'
+
 const Portfolio = () => {
   const Portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: dataFinance,
     },
     {
       id: 2,
