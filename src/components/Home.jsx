@@ -15,9 +15,10 @@ const Home = () => {
             I am a Frontend Developer{' '}
           </h2>
           <p className=" text-gray-500 py-4 max-w-md">
-            I have 1 year of experience building and designning software.
-            Currently, I lovve to work on web applications using technologies
-            like React and Tailwind CSS.
+            I have honed my skills for one year in software development and
+            design, with a particular focus on creating web applications. My
+            passion lies in leveraging technologies like React and Tailwind CSS
+            to build intuitive and visually appealing interfaces.
           </p>
 
           <div>
