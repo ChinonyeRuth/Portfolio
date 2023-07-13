@@ -31,8 +31,7 @@ const About = () => {
           to create seamless and intuitive experiences for users. I am excited
           to continue pushing the boundaries of front-end development, embracing
           new challenges and collaborating with like-minded individuals to shape
-          the future of the web. Was this response better or worse? Better Worse
-          Same
+          the future of the web.
         </p>
       </div>
     </div>
