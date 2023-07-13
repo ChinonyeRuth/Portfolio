@@ -11,26 +11,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: dataFinance,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/ChinonyeRuth/Data-Finance-Website',
     },
     {
       id: 2,
       src: installNode,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/example/data-finance',
     },
     {
       id: 3,
       src: navbar,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/example/data-finance',
     },
     {
       id: 4,
       src: reactParallax,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/example/data-finance',
     },
     {
       id: 5,
       src: reactSmooth,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/example/data-finance',
     },
     {
       id: 6,
       src: reactWeather,
+      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      codeLink: 'https://github.com/example/data-finance',
     },
   ]
 
@@ -57,10 +69,17 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div>
-                <button className="w-1/2  px-6 py-3 m-4d duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2  px-6 py-3 m-4d duration-200 hover:scale-105">
+                <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                  <button className="w-1/2 px-6 py-3 m-4d duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+                <button className="w-1/2 px-6 py-3 m-4d duration-200 hover:scale-105">
                   Code
                 </button>
               </div>
