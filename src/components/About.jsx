@@ -14,21 +14,25 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cumque
-          vitae atque eius, illum quisquam harum reprehen derit perferendis
-          obcaecati totam dignissimos minima molestiae ullam iste nihil eligendi
-          voluptate veniam quidem dolore aut sunt consequuntur! Illum, est
-          itaque reprehenderit ab dolorem iusto reiciendis error dolores, in
-          quisquam laborum molestiae et quas!
+          As a front-end developer specializing in React.js and Tailwind CSS, I
+          am driven by a deep passion for crafting exceptional user experiences.
+          With my expertise in these technologies, I have spent significant time
+          mastering the art of creating dynamic and responsive web applications.
+          Through my journey, I have gained valuable experience in building
+          elegant and intuitive user interfaces that seamlessly integrate
+          functionality with stunning visuals. I am continuously expanding my
+          knowledge and staying up to date with the latest trends in front-end
+          development, allowing me to deliver cutting-edge solutions that exceed
+          expectations.
         </p>
         <br />
         <p className="text-xl" q fbvc>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cumque
-          vitae atque eius, illum quisquam harum reprehenderit perferendis
-          obcaecati totam dignissimos minima molestiae ullam iste nihil eligendi
-          voluptate veniam quidem dolore aut sunt consequuntur! Illum, est
-          itaque reprehenderit ab dolorem iusto reiciendis error dolores, in
-          quisquam laborum molestiae et quas!
+          By combining my technical skills with a keen eye for design, I strive
+          to create seamless and intuitive experiences for users. I am excited
+          to continue pushing the boundaries of front-end development, embracing
+          new challenges and collaborating with like-minded individuals to shape
+          the future of the web. Was this response better or worse? Better Worse
+          Same
         </p>
       </div>
     </div>
