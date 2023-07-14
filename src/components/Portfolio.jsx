@@ -1,5 +1,5 @@
 import React from 'react'
-import dataFinance from '../assets/portfolio/Capture.JPG'
+import dataFinance from '../assets/portfolio/Data Finance 2.JPG'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/arrayDestruct.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
