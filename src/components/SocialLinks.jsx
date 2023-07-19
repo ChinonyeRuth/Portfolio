@@ -46,7 +46,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/Ibeakanma_Chinonye_Ruth_Admission_Letter.PDF',
+      href: '/CHINONYE IBEAKANMA RESUME ',
       style: 'rounded-tr-md',
       download: true,
     },
