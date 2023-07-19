@@ -1,7 +1,7 @@
 import React from 'react'
 import dataFinance from '../assets/portfolio/Data Finance 2.JPG'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/arrayDestruct.jpg'
+import weDesign from '../assets/portfolio/wedesign.JPG'
+import Password from '../assets/portfolio/Password.JPG'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
@@ -16,15 +16,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: installNode,
-      demoLink: 'https://data-finance-website-eight.vercel.app/',
-      codeLink: 'https://github.com/example/data-finance',
+      src: weDesign,
+      demoLink: 'https://wedesign.vercel.app/',
+      codeLink: 'https://github.com/ChinonyeRuth/WEDESIGN',
     },
     {
       id: 3,
-      src: navbar,
-      demoLink: 'https://data-finance-website-eight.vercel.app/',
-      codeLink: 'https://github.com/example/data-finance',
+      src: Password,
+      demoLink: 'https://password-validation-form.vercel.app/',
+      codeLink: 'https://github.com/ChinonyeRuth/Password-Validation-Form',
     },
     {
       id: 4,
@@ -68,20 +68,18 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div>
+              <div className="flex justify-between">
                 <a href={demoLink} target="_blank" rel="noopener noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4d duration-200 hover:scale-105">
                     Demo
                   </button>
                 </a>
-                <a
-                  href={codeLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-                <button className="w-1/2 px-6 py-3 m-4d duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={codeLink} target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  <button className="w-1/2 px-6 py-3 m-4d duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}

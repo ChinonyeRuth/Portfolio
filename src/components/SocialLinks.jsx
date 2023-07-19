@@ -46,7 +46,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/CHINONYE IBEAKANMA RESUME ',
+      href: '/resume.pdf',
       style: 'rounded-tr-md',
       download: true,
     },
