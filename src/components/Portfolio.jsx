@@ -2,7 +2,7 @@ import React from 'react'
 import dataFinance from '../assets/portfolio/Data Finance 2.JPG'
 import weDesign from '../assets/portfolio/wedesign.JPG'
 import Password from '../assets/portfolio/Password.JPG'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
+import udemy from '../assets/portfolio/udemy.JPG'
 import Ecommerce from '../assets/portfolio/Ecommerce.JPG'
 import Netflix from '../assets/portfolio/Netflix.JPG'
 
@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: reactParallax,
+      src: udemy,
       demoLink: 'https://chinonyeudemyclone.netlify.app/',
       codeLink: 'https://github.com/example/data-finance',
     },
