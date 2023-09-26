@@ -3,8 +3,8 @@ import dataFinance from '../assets/portfolio/Data Finance 2.JPG'
 import weDesign from '../assets/portfolio/wedesign.JPG'
 import Password from '../assets/portfolio/Password.JPG'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import Ecommerce from '../assets/portfolio/Ecommerce.JPG'
+import Netflix from '../assets/portfolio/Netflix.JPG'
 
 const Portfolio = () => {
   const Portfolios = [
@@ -22,26 +22,28 @@ const Portfolio = () => {
     },
     {
       id: 3,
+
+      src: Ecommerce,
+      demoLink: 'https://e-commerce-website-lemon-pi.vercel.app/',
+      codeLink: 'https://github.com/ChinonyeRuth/E-commerce-Website',
+    },
+    {
+      id: 4,
+      src: Netflix,
+      demoLink: 'https://chinonye-netflix-clone.netlify.app/',
+      codeLink: 'https://github.com/ChinonyeRuth/Netflix-clone',
+    },
+
+    {
+      id: 5,
       src: Password,
       demoLink: 'https://password-validation-form.vercel.app/',
       codeLink: 'https://github.com/ChinonyeRuth/Password-Validation-Form',
     },
     {
-      id: 4,
-      src: reactParallax,
-      demoLink: 'https://data-finance-website-eight.vercel.app/',
-      codeLink: 'https://github.com/example/data-finance',
-    },
-    {
-      id: 5,
-      src: reactSmooth,
-      demoLink: 'https://data-finance-website-eight.vercel.app/',
-      codeLink: 'https://github.com/example/data-finance',
-    },
-    {
       id: 6,
-      src: reactWeather,
-      demoLink: 'https://data-finance-website-eight.vercel.app/',
+      src: reactParallax,
+      demoLink: 'https://chinonyeudemyclone.netlify.app/',
       codeLink: 'https://github.com/example/data-finance',
     },
   ]
